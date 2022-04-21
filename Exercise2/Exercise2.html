@@ -10,22 +10,9 @@
     .mySlides {
   display: none;
 } 
-   .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  }
 </style>
 <body>
+    <p>click buttons to get slideshow started</p>
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -52,8 +39,8 @@
     <div class="numbertext">5 / 5</div>
     <img src="TENNIS.jpeg" width="400" height="400">
   </div>
-<button value="Previous" class="prev" onclick="plusSlides(-1)">❮</button>
-<button value="Next" class="next" onclick="plusSlides(1)">❯</button>
+<button value="Previous" class="prev" onclick="plusSlides(-1)">previous</button>
+<button value="Next" class="next" onclick="plusSlides(1)">next</button>
 
 </div>
 <br>
